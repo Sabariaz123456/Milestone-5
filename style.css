@@ -1,0 +1,162 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f4f7f6; /* Subtle light background */
+    color: #333; /* Main text color */
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.container {
+    width: 60%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 60px;
+    background-color: #dfedfa;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Form Section Styles */
+.form-section {
+    padding: 20px;
+    border: 1px solid #e1e4e8;
+    border-radius: 10px;
+    background-color: #fafafa;
+    transition: all 0.3s ease;
+}
+
+.form-section:hover {
+    border-color: #3498db; /* Highlight section when hovered */
+}
+
+.form-section h2 {
+    font-size: 1.6rem;
+    color: #1c2125;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 1rem;
+    color: #334446;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 14px 18px;
+    font-size: 1rem;
+    border: 1px solid hsl(0, 14%, 3%);
+    border-radius: 6px;
+    background-color: #f8f2f2;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+input[type="file"]:focus {
+    border-color: #080808;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+textarea::placeholder {
+    color: #839fa1;
+    font-style: italic;
+}
+
+button.submit-button {
+    padding: 14px 22px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    width: 100%;
+}
+
+button.submit-button:hover {
+    background-color: #2980b9;
+}
+
+button.submit-button:focus {
+    outline: none;
+}
+
+/* Output Area */
+#resumeOutput {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+#resumeOutput h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+}
+
+#resumeOutput p {
+    font-size: 1.1rem;
+    color: #0b0c0c;
+    margin-bottom: 10px;
+}
+
+#shareableLink {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f5f8fb;
+    border: 1px solid #3498db;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    color: #3498db;
+    text-align: center;
+}
+
+
